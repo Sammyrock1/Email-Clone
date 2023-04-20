@@ -1,0 +1,14 @@
+{
+    "listArray": [
+        {
+            "MoreIcon":"<MoreVertIcon/>",
+            "DragIcon":"<DragIndicatorIcon/>",
+            "CheckBox": "<Checkbox/>",
+            "Stars": "<Stars/>",
+            "Text": "Testing",
+            "Title": "You're in!Welcome to new testing!",
+            "MessagesText": "We're excited to give you access to an early preview of the new Bing – Your AI-powered copilot for the web. You're in! Welcome to the new Bing! We are excited to give you access to an early",
+            "Date": "mar 29"
+        }
+    ]
+}

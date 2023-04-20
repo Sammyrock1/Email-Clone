@@ -1,9 +1,8 @@
 html {
   box-sizing: border-box;
   width: 100%;
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
+  position: relative;
+  overflow: hidden;
   font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 } 
 /* 

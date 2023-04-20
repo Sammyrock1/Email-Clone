@@ -52,7 +52,7 @@ const LogoWrapper = styled.div`
 align-items: center;
 display: grid;
 grid-template-columns : 30px 50px;
-height: 45px;
+margin-top: 20px;
 margin-left: 30px;`
 
 const InputWrapper = styled.div`
@@ -96,13 +96,12 @@ color: #5f6368;
 }`
 
 const LogoPhoto = styled.div`
- height: 60px;
+
  margin-left: 10px;`
 
  const AccountWrapper = styled.div`
  display: grid;
- grid-template-columns: 10px 10px 10px 50px;
- margin-left: 50px;
+ grid-template-columns: 20px 20px 20px 30px;
  grid-gap: 20px;
  color: #5f6368;`
 

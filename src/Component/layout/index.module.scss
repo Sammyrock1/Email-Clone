@@ -1,0 +1,210 @@
+.EmailViewWrapper{
+      position: relative;
+      margin-top: 20px;
+      margin-right: 10px;
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      border-bottom: 1px solid lightgray;
+      cursor: pointer
+ }
+ .activeTab{
+    
+    border-bottom: 2px solid blue;
+    color: blue;
+ }
+ .socialViewWrapper {
+    display: grid;
+ grid-template-columns: 20px 20px;
+ align-items: center;
+ padding-left: 10px;
+ padding-right: 200px;
+ font-weight: 200;
+ margin-left: 50px;
+
+ &:hover{
+     background-color: lightgray;
+    
+ }
+ p{
+     padding-left: 20px;
+     padding-right: 90px;
+}
+}
+ .primaryViewWrapper{
+    display: grid;
+    grid-template-columns: 20px 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 200px;
+    font-weight: 200;
+
+    &:hover{
+        background-color: lightgray;
+       
+    }
+    p{
+        padding-left: 20px;
+        padding-right: 90px;
+   }
+ }
+ .promotionViewWrapper{
+     display: grid;
+  grid-template-columns: 20px 20px;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 200px;
+  font-weight: 200;
+  margin-left: 20px;
+
+  &:hover{
+      background-color: lightgray;
+     
+  }
+  p{
+      padding-left: 20px;
+      padding-right: 90px;
+ }
+ }
+
+ .MessagesListWrapper{
+     border-bottom: 1px solid lightgray;
+ font-size: .875rem;
+ margin-right: 20px;
+ :hover .MessageOnly{
+    width: 90%;
+    border-right: none;
+ }
+ 
+ :hover .moreIcon{
+     opacity: 0.5;
+ }
+ .moreIcon{
+    align-items: center;
+    opacity: 0;
+ }
+ .Icons{
+    opacity: 0;
+    width: 100%;
+    grid-template-columns: 20px 20px 20px 20px;
+    grid-column-gap: 30px;
+   display: grid;
+    align-items: center;
+    margin-right: 30px; }
+ :hover .Icons{
+    opacity: 1;
+    
+    
+ }
+ .MessageDate{
+    font-weight: 700;
+    padding-left: 150px;
+    opacity: 1;
+}
+
+:hover .MessageDate{
+    opacity: 0;
+}
+ }
+ 
+ .Iconslist{
+         display: grid;
+   grid-template-columns: 1000px  100px;
+   margin-top: 10px;
+ }
+
+ .list{
+ display: grid;
+ grid-template-columns: 20px 40px 30px 120px 860px 10px 20px;
+ align-items: center;
+ font-size: .875rem;
+ &:hover{
+    background-color: transparent;
+    border: 1px solid lightgray;
+    position: relative;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+ }
+
+ .MessageChecked{
+     font-size: 10px;
+ color: lightgray;
+ }
+
+ .MessageStar{
+     display: grid;
+ grid-template-columns: 700px 50px;
+ color: lightgray;
+ }
+
+ .MessageText{
+     font-weight: 700;
+ }
+
+
+ .MessageOnly{
+    text-overflow: ellipsis;
+         white-space: nowrap;
+         overflow: hidden;
+         width: 98%;
+     span:last-child{
+             margin-left: 5px;
+             font-size: 15px;
+             color: gray;
+             font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+         }
+         &span:first-child{
+             font-weight: 700;
+         }
+ }
+ 
+
+ .IconsButton {
+     display: grid;
+ grid-template-columns: 70px 40px 40px;
+ align-items: center;
+ }
+
+ .Both{
+     display: grid;
+ grid-template-columns: 40px 20px;
+ align-items: center;
+ }
+ 
+ .Checkbutton {
+     margin-left: 10px;
+//  :hover{
+//      background-color: lightgray;
+//      border-radius: 5px;
+//      Opacity: 0.5;
+//  }
+ }
+ .Checkbuttons{
+     border-radius: 5px;
+     
+//  :hover{
+//      background-color: lightgray;
+//      Opacity: 0.5;
+//  }
+ }
+//   .IconWrapper{
+//          background-color: lightgray;
+//          border-radius: 40px;
+//          padding: 5px;
+//          Opacity: 0.5;
+    
+//  }
+ .SideIconsWrapper{
+     align-items: center;
+ display: grid;
+ grid-template-columns: 35px 50px 25px 20px;
+ margin-left: 150px;
+ }
+
+ .IconsButtonWrapper{
+     grid-template-columns: 85% 15%;
+ display: grid;
+ align-items: center;
+ margin-left: 50px;
+ }
+
