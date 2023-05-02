@@ -11,19 +11,18 @@ import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
 
 const messages = [
         {
-            DragIcon:<DragIndicatorIcon/>,
+            
             CheckBox: <Checkbox fontSize="small"/>,
             Stars: <Stars fontSize="small"/>,
-            Text: "Microsoft Bing",
-            Title: "You're in!Welcome to new Bing!",
+            Text: "MicroSoft Bing!",
+            Title: "You're in!we're done testing!",
             MessagesText: "We're excited to give you access to an early preview of the new Bing – Your AI-powered copilot for the web. You're in! Welcome to the new Bing! We are excited to give you access to an early",
-            Date: "Mar 29",
+            Date: "April 22",
             MoreVertIcon:<DragIndicatorIcon fontSize="small"/>,
             Archive: <ArchiveIcon fontSize="small"/>,
             Delete: <DeleteOutlineIcon fontSize="small"/>,
             Draft: <DraftsIcon fontSize="small"/>,
             Time: <AccessTimeIcon fontSize="small"/>
-        },
-    ]
+        },]
  
 export default messages;

@@ -48,7 +48,11 @@ const ListArray = ({toggleAppear}) =>{
          </div>
             </div>
     ))}
+
+
         </div>   
+
+        
     )
             }
 export default ListArray;

@@ -8,9 +8,13 @@
       cursor: pointer
  }
  .activeTab{
-    
     border-bottom: 2px solid blue;
     color: blue;
+ }
+ .SideactiveTab{
+     background-color: lavender;
+     border-radius: 10px 40px 40px 0px;
+    font-weight: 600;
  }
  .socialViewWrapper {
     display: grid;
@@ -34,7 +38,7 @@
     display: grid;
     grid-template-columns: 20px 20px;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-right: 200px;
     font-weight: 200;
 
@@ -54,7 +58,7 @@
   padding-left: 10px;
   padding-right: 200px;
   font-weight: 200;
-  margin-left: 20px;
+  margin-left: 30px;
 
   &:hover{
       background-color: lightgray;
@@ -84,20 +88,21 @@
  }
  .Icons{
     opacity: 0;
-    width: 100%;
     grid-template-columns: 20px 20px 20px 20px;
     grid-column-gap: 30px;
    display: grid;
     align-items: center;
-    margin-right: 30px; }
+     }
  :hover .Icons{
     opacity: 1;
     
     
  }
  .MessageDate{
+    display: flex;
+    margin-left: 100px;
     font-weight: 700;
-    padding-left: 150px;
+    width: 100px;
     opacity: 1;
 }
 
@@ -108,15 +113,16 @@
  
  .Iconslist{
          display: grid;
-   grid-template-columns: 1000px  100px;
+   grid-template-columns: 1200px  100px;
    margin-top: 10px;
  }
 
  .list{
  display: grid;
- grid-template-columns: 20px 40px 30px 120px 860px 10px 20px;
+ grid-template-columns: 20px 40px 40px 200px 800px 10px 20px;
  align-items: center;
  font-size: .875rem;
+ border-bottom: 1px solid lightgray;
  &:hover{
     background-color: transparent;
     border: 1px solid lightgray;
@@ -194,12 +200,7 @@
 //          Opacity: 0.5;
     
 //  }
- .SideIconsWrapper{
-     align-items: center;
- display: grid;
- grid-template-columns: 35px 50px 25px 20px;
- margin-left: 150px;
- }
+
 
  .IconsButtonWrapper{
      grid-template-columns: 85% 15%;
@@ -207,4 +208,29 @@
  align-items: center;
  margin-left: 50px;
  }
+.SideIconsButton{
+display: grid;
+grid-template-columns: 40px 50px;
+padding-left: 20px;
+padding-top: 5px;
+    padding-bottom: 5px;
+cursor: pointer;
+padding-top: 10px;
+font-size: 15px;
+
+
+&:hover{
+    background-color: rgb(236, 231, 231);
+    border-radius: 10px 40px 40px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+   }
+}
+.SideIconWrapper{
+margin-top: 20px;
+margin-right: 20px;}
+.BottomBar{
+height: 100vh;
+Overflow: auto;}
 

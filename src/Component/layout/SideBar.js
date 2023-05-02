@@ -1,21 +1,24 @@
-import React from "react";
+import React,{useState} from "react";
 import Compose from "../Buttons/ComposeButton"
 import styled from "@emotion/styled";
-import {SideIconsBarButton} from "../Buttons/SideIconsBarButton";
-import AddIcon from '@mui/icons-material/Add'
+import AddIcon from '@mui/icons-material/Add';
+import Messagemenu from "./messagesBox/messagesmenu";
+
 
 
 const SideBar = ()=>{
+    const [isactive,setActive] = useState("SideIconsButton")
+    
+    const toggleActive = (props) =>{
+        setActive(props);
+    } 
+
     return(
         <Wrapper>
             <ComposeWrapper>
                 <Compose/>
             </ComposeWrapper>
-            <SideIconWrapper>
-            { SideIconsBarButton.map((items)=>(
-                    <SideIconsButton>{items.Icons}{items.Text}</SideIconsButton>
-            ))}
-            </SideIconWrapper>
+          <Messagemenu isactive={isactive} toggleActive={toggleActive}/>
             <LabelWrapper>
                 <p>Labels</p>
                 <IconWrapper>
@@ -50,26 +53,8 @@ border: transparent;}`
 
 const Wrapper = styled.div`
 background-color: #f7fcf9;`
-const SideIconsButton = styled.div`
-display: grid;
-grid-template-columns: 40px 50px;
-padding-left: 30px;
-cursor: pointer;
-padding-top: 10px;
-font-size: 15px;
 
-:hover{
-    background-color: lightgray;
-    border-radius: 10px 40px 40px 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: 600;
-    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif";
-}`
-const SideIconWrapper= styled.div`
-margin-top: 20px;
-margin-right: 20px;
-`
+
 const LabelWrapper = styled.div`
 display: flex;
 justify-content: space-between;
